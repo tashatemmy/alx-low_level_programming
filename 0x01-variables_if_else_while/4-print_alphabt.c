@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include <stdio.h>
 
 /**
  * main - prints the alphabet in lowercase and is followed by a new line
@@ -10,7 +10,7 @@ int main(void)
 {
 	char sa;
 
-	for (sa = 'a'; sa <= 'z' sa++)
+	for (sa = 'a'; sa <= 'z'; sa++)
 	{
 		if (sa != 'e' && sa != 'q')
 			putchar(sa);
