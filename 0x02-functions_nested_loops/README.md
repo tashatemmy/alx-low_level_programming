@@ -1,1 +1,1 @@
-C, Functions and Nested loops
+this is a c_function and nested loop task
