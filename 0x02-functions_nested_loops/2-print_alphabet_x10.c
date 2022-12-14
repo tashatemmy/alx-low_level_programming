@@ -1,16 +1,22 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
- * _lower - checks if a character is lowercase
- * @c: the character
- * Return: 1 if letter is lowercase, 0 if not
+ * print_alphabet_x10 - function to print abc 10 times
+ * Return: 0
  */
 
-int _lower(int c)
+void print_alphabet_x10(void)
+
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	char c, i;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+
+		_putchar('\n');
+	}
 }
