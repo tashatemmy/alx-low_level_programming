@@ -1,1 +1,1 @@
-basic C introduction
+This is a readme file
